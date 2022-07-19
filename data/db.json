@@ -1,0 +1,52 @@
+{
+  "stack": [
+    {
+      "id": 1,
+      "technology": "HTML/CSS",
+      "progress": 94,
+      "icon": "https://cetat2.org/wp-content/uploads/2020/12/htmlcsscourse.png"
+    },
+    {
+      "id": 2,
+      "technology": "JavaScript",
+      "progress": 85,
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+      "id": 3,
+      "technology": "TypeScript",
+      "progress": 68,
+      "icon": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+    },
+    {
+      "id": 4,
+      "technology": "React",
+      "progress": 81,
+      "icon": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
+    },
+    {
+      "id": 5,
+      "technology": "Redux",
+      "progress": 74,
+      "icon": "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
+    },
+    {
+      "id": 6,
+      "technology": "SASS/SCSS",
+      "progress": 65,
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
+    },
+    {
+      "id": 7,
+      "technology": "Material UI",
+      "progress": 73,
+      "icon": "https://v4.material-ui.com/static/logo.png"
+    },
+    {
+      "technology": "Git",
+      "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png",
+      "progress": 45,
+      "id": 8
+    }
+  ]
+}

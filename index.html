@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/style.css" rel="stylesheet" />
+  <title>Progress App</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="wrapper">
+      <div class="profile">
+        <div class="profile-sidebar">
+          <div class="avatar-section">
+            <a href="https://www.linkedin.com/in/ihor-voznyi-769744231/" target="_blank">
+              <img class="avatar-section-image" src="./images/avatar.jpg" alt="avatar" />
+            </a>
+            <span class="avatar-section-username">Ihor Voznyi</span>
+            <span class="avatar-section-status">Front-end Developer</span>
+          </div>
+          <div class="links-section">
+            <ul>
+              <li class="links-section-link" data-for-content="1"><img
+                  src="./images/about-icon.png" /><span>About</span></li>
+              <li class="links-section-link" data-for-content="2"><img
+                  src="./images/technology-stack.png" /><span>Knowledges</span>
+              </li>
+              <li class="links-section-link active-menu" data-for-content="3"><img
+                  src="./images/portfolio-icon.png" /><span>Works</span></li>
+              <li class="links-section-link" data-for-content="4"><img
+                  src="./images/contact-icon.png" /><span>Contact</span></li>
+            </ul>
+          </div>
+          <div class="proposal-section">
+            <a class="proposal-section-text" href="./download/Junior_RoadMap.pdf" download>
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <div class="content-box" data-content-box="1">
+          CONTENT BOX 1
+        </div>
+
+        <div class="content-box" data-content-box="2">
+          <div class="profile-content">
+
+            <!-- CHANGABLE CONTENT -->
+            <div class="content-header-section ">
+              <div class="content-header-title">
+                Technologies
+              </div>
+              <div class="content-header-features">
+                <div class="content-header-search">
+                  <input type="text" placeholder="Search technology" />
+                </div>
+                <div class="content-header-button">
+                  + Add
+                </div>
+              </div>
+            </div>
+            <div class="content-cards-section"></div>
+          </div>
+        </div>
+
+        <div class="content-box active-box" data-content-box="3">
+          CONTENT BOX 3
+        </div>
+
+        <div class="content-box" data-content-box="4">
+          CONTENT BOX 4
+        </div>
+
+      </div>
+
+      <div class="wrapper-cirle up"></div>
+      <div class="wrapper-cirle bottom"></div>
+    </div>
+
+    <div class="add-game-modal-wrapper hide">
+      <div class="add-game-modal-window">
+        <div class="modal-box">
+          <h2 class="modal-title">
+            Add a new Game!
+          </h2>
+          <form class="modal-form">
+            <div class="modal-gameName">
+              <p class="modal-gameName-title">
+                Knowledge:
+              </p>
+              <div class="modal-input">
+                <input type="text" id="gameName" placeholder="Type knowledge" />
+              </div>
+            </div>
+
+            <div class="modal-version">
+              <p class="modal-version-title">
+                Icon:
+              </p>
+              <div class="modal-input">
+                <input type="text" id="version" placeholder="Icon link" />
+              </div>
+            </div>
+
+            <div class="modal-progress">
+              <p class="modal-progress-title">
+                Progress:
+              </p>
+              <div class="modal-input">
+                <input type="number" id="progress" placeholder="Type progress" />
+              </div>
+            </div>
+            <div class="modal-submit">
+              PUSH
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-window-close">
+          X
+        </div>
+
+        <div class="wrapper-cirle up"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./scripts/progress.js" deffer></script>
+</body>
+
+</html>
